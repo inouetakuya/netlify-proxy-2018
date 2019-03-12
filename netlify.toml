@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/"
+  to = "/2018/"
+  status = 301
