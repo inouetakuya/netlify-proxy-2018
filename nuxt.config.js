@@ -55,5 +55,9 @@ module.exports = {
     extend(config, ctx) {
       
     }
+  },
+
+  generate: {
+    dir: 'dist/2018'
   }
 }
