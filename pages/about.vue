@@ -3,15 +3,15 @@
     <div>
       <logo />
       <h1 class="title">
-        netlify-proxy-2018
+        About
       </h1>
 
       <h2 class="subtitle">
-        My tremendous Nuxt.js project
+        This is about page
       </h2>
 
-      <nuxt-link to="/2018/about/">
-        about
+      <nuxt-link to="/">
+        top
       </nuxt-link>
 
       <div class="link-to-github">
