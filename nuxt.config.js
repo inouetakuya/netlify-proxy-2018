@@ -3,6 +3,7 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'universal',
+  srcDir: 'src/',
   router: {
     base: '/2018/'
   },
