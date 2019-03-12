@@ -5,9 +5,23 @@
       <h1 class="title">
         About
       </h1>
+
       <h2 class="subtitle">
         This is about page
       </h2>
+
+      <nuxt-link to="/">
+        top
+      </nuxt-link>
+
+      <div class="link-to-github">
+        <a
+          href="https://github.com/inouetakuya/netlify-proxy-2018"
+          target="_blank"
+        >
+          <img src="~/assets/images/github.svg" />
+        </a>
+      </div>
     </div>
   </section>
 </template>
@@ -50,7 +64,7 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
+.link-to-github {
+  margin-top: 15px;
 }
 </style>

@@ -5,20 +5,22 @@
       <h1 class="title">
         netlify-proxy-2018
       </h1>
+
       <h2 class="subtitle">
         My tremendous Nuxt.js project
       </h2>
-      <div class="links">
+
+      <nuxt-link to="/about/">
+        about
+      </nuxt-link>
+
+      <div class="link-to-github">
         <a
-          href="https://nuxtjs.org/"
+          href="https://github.com/inouetakuya/netlify-proxy-2018"
           target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
+        >
+          <img src="~/assets/images/github.svg" />
+        </a>
       </div>
     </div>
   </section>
@@ -62,7 +64,7 @@ export default {
   padding-bottom: 15px;
 }
 
-.links {
-  padding-top: 15px;
+.link-to-github {
+  margin-top: 15px;
 }
 </style>
