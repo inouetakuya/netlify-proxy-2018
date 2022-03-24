@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "kind-of": "^6.0.3",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "nodemon": "^1.19.1",
     "serialize-javascript": "^3.1.0"
   }
